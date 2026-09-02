@@ -128,9 +128,6 @@ body {
 }
 
 .products-item {
-  display: flex;
-  gap: 12px;
-  align-items: center;
   padding: 12px 0 11px;
   border-bottom: 1px solid #555555;
 }
@@ -138,6 +135,12 @@ body {
 .products-item:last-of-type {
   padding: 12px 0;
   border: 0;
+}
+
+.product-item__article {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
 .products-item__img {
